@@ -1,10 +1,27 @@
-h1,
-h2,
-p {
+h1 {
     color: blue;
 }
 
-.card h2,
-.card p {
+.title {
+    color: green;
+}
+
+#main-title {
     color: red;
+}
+
+h1 {
+    color: purple;
+}
+
+.text {
+    color: orange;
+}
+
+p {
+    color: black;
+}
+
+#main-title {
+    color: yellow;
 }

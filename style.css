@@ -1,19 +1,5 @@
 .container {
-    width: 600px;
-    display: flex;
-}
-
-.a {
-    flex-basis: 100px;
-    flex-grow: 1;
-}
-
-.b {
-    flex-basis: 200px;
-    flex-grow: 1;
-}
-
-.c {
-    flex-basis: 100px;
-    flex-grow: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }

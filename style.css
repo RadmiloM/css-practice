@@ -1,19 +1,19 @@
 .box {
-    width: 150px;
+    width: 100px;
     height: 100px;
+    position: relative;
 }
 
-.red {
-    display: inline-block;
+.one {
     background-color: red;
 }
 
-.blue {
-    display: inline-block;
-    background-color: blue;
+.two {
+    background-color: green;
+    left: 30px;
+    top: 20px;
 }
 
-.green {
-    display: inline-block;
-    background-color: green;
+.three {
+    background-color: blue;
 }

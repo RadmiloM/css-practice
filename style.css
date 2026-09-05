@@ -1,14 +1,19 @@
-.card {
-    width: 50%;
-    height: 200px;
-    background-color: #D3D3D3;
-    color: rgb(20, 40, 100);
+.box {
+    width: 150px;
+    height: 100px;
 }
 
-h1 {
-    font-size: 2rem;
+.red {
+    display: inline-block;
+    background-color: red;
 }
 
-p {
-    font-size: 1rem;
+.blue {
+    display: inline-block;
+    background-color: blue;
+}
+
+.green {
+    display: inline-block;
+    background-color: green;
 }

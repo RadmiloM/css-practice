@@ -1,27 +1,14 @@
-h1 {
-    color: blue;
-}
-
-.title {
-    color: green;
-}
-
-#main-title {
-    color: red;
+.card {
+    width: 50%;
+    height: 200px;
+    background-color: #D3D3D3;
+    color: rgb(20, 40, 100);
 }
 
 h1 {
-    color: purple;
-}
-
-.text {
-    color: orange;
+    font-size: 2rem;
 }
 
 p {
-    color: black;
-}
-
-#main-title {
-    color: yellow;
+    font-size: 1rem;
 }

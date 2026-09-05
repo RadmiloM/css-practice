@@ -3,7 +3,7 @@
     height: 300px;
     display: flex;
     border: 2px solid black;
-    /* justify-self: center; */
+    justify-content: center;
     align-items: center;
 }
 

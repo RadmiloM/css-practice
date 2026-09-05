@@ -1,8 +1,10 @@
 .container {
     width: 600px;
+    height: 300px;
     display: flex;
     border: 2px solid black;
-    justify-content: space-between;
+    /* justify-self: center; */
+    align-items: center;
 }
 
 .container div {

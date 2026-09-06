@@ -1,15 +1,10 @@
-h1 {
-    color: blue;
+.container {
+    width: 600px;
 }
 
-.heading {
-    color: green;
-}
-
-#title {
-    color: purple
-}
-
-#title {
-    color: red;
+.box {
+    width: 50%;
+    padding: 20px;
+    font-size: 2rem;
+    width: calc(100% - 40px);
 }

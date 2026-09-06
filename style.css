@@ -1,13 +1,15 @@
-.container {
-    display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
+h1 {
+    color: blue;
 }
 
-@media(max-width: 600px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+.heading {
+    color: green;
+}
+
+#title {
+    color: purple
+}
+
+#title {
+    color: red;
 }

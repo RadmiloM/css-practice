@@ -1,10 +1,19 @@
-.container {
-    width: 600px;
+.box {
+    padding: 10px;
+    width: 50%;
+    background-color: red;
+    border: 2px solid black;
+    animation: boxing ease 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-.box {
-    width: 50%;
-    padding: 20px;
-    font-size: 2rem;
-    width: calc(100% - 40px);
+@keyframes boxing {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(300px);
+    }
 }

@@ -4,6 +4,7 @@
     --color-secondary: blue;
     --color-text: white;
     --spacing-md: 20px;
+    --background-color: orange;
 }
 
 /* COMPONENTS*/
@@ -15,16 +16,25 @@
 }
 
 .profile-card__name {
-    color: var(--color-text);
-    background-color: var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
     border: 2px solid var(--color-secondary);
     padding: 10px;
 }
 
 .button {
-    margin: var(--spacing-md);
+    color: var(--color-primary);
+    padding: var(--spacing-md);
+    background-color: var(--background-color);
 }
 
 .button--secondary {
-    border: 2px solid var(--color-primary)
+    margin: var(--spacing-md);
+    font-size: 15px;
+}
+
+/* BASE */
+body {
+    max-width: 50%;
+    text-align: center;
 }

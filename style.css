@@ -1,19 +1,24 @@
-.box {
-    padding: 10px;
-    width: 50%;
+.ball {
+    width: 50px;
+    height: 50px;
+    color: blue;
     background-color: red;
-    border: 2px solid black;
-    animation: boxing ease 2s;
+    border-radius: 50%;
+    animation: pulse 1s ease;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+
 }
 
-@keyframes boxing {
-    from {
-        transform: translateX(0);
+@keyframes pulse {
+    0% {
+        transform: scale(1);
     }
 
-    to {
-        transform: translateX(300px);
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
